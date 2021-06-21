@@ -1,0 +1,17 @@
+캠핑 사이트 구조 설명
+--------------------
+Login.jsp : 로그인 화면 구현
+LoginPro.jsp : 로그인 처리
+mainCamping.jsp : 로그인 후에 첫 화면 (top.jsp + LeftMenu.jsp + Center.jsp + bottom.jsp)
+LeftMenu.jsp : Center.jsp (kovea.jsp, snowpeak.jsp, coleman.jsp, jeep.jsp)
+
+sessionMain.jsp(Login.jsp) : 로그인 및 처리
+memberList.jsp : 회원정보 목록 구현
+memberJoin.jsp : 회원가입 화면 구현
+memberJoinPro2.jsp : 회원가입 화면 구현
+memberInfo.jsp : 상세보기 화면
+memberUpdate.jsp : 회원정보 수정 화면
+memberUpdatePro.jsp : 회원정보 수정 처리 구현
+memberDelete.jsp : 회원정보 삭제 화면
+memberDeletePro.jsp : 회원정보 삭제 처리 구현
+Logout.jsp : 로그아웃 처리
